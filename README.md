@@ -21,10 +21,6 @@ Vor "grauer Vorzeit" wurde noch viel gecached und Proxies haben diese Arbeit ger
  # ----------------------------------------------------------
  # Logging
  # ----------------------------------------------------------
- #access_log /var/log/squid/access.log squid
- #logformat custom %>a %un %>rm %ru %>Hs %<st %tr %>h %{User-Agent}>h
- #access_log /var/log/squid/access.log custom
- #logformat csv %ts;%>a;%un;%rm;%ru;%Hs;%<st;%tr;%{User-Agent}>h%Ss; (Orig -> Test "%Ss")
  logformat csv %ts;%Ss;%>a;%un;%rm;%ru;%Hs;%<st;%tr;%{User-Agent}>h
  access_log /var/log/squid/access.csv csv
 ```
