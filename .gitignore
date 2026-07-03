@@ -1,6 +1,13 @@
 # Sensible Konfigurationsdateien
 /includes/configuration.includes.php
 
+# Webserver-Konfigurationsdateien
+/.htaccess
+/.vscode/
+/icon/
+/awstats-icon/
+/awstatsicons/
+
 # SSL-Zertifikate und Schlüssel
 *.pem
 *.key
