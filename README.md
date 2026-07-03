@@ -69,8 +69,7 @@ Vor "grauer Vorzeit" wurde noch viel gecached und Proxies haben diese Arbeit ger
 
 2.  **Datenbank einrichten:**
     - Erstellen Sie eine neue Datenbank in MySQL/MariaDB.
-    - Importieren Sie die Tabellenstruktur. Eine `schema.sql`-Datei sollte hierfür erstellt und bereitgestellt werden.
-      _(Hinweis: Aktuell muss die Struktur manuell angelegt werden. Siehe `loadData`-Funktion in `classes/general.class.php` für die Spalten.)_
+    - Importieren Sie die Tabellenstruktur aus der im ROOT-Verzeichnis vorliegenden `schema.sql`-Datei.
 
 3.  **Konfiguration (Backend):**
     - Kopieren Sie die Beispiel-Konfigurationsdatei:
