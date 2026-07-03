@@ -1,0 +1,25 @@
+{
+  "name": "squid_logfile_analyzer",
+  "version": "1.0.0",
+  "description": "tbd",
+  "main": "index.php",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "squid",
+    "log",
+    "analyze"
+  ],
+  "author": "Axel Glitza",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8",
+    "chart.js": "^4.5.1",
+    "jquery": "^3.7.1",
+    "ws": "^8.19.0"
+  }
+}

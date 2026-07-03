@@ -1,0 +1,12 @@
+<?php
+
+$dbConfig = [
+    'host' => 'YOUR_MACHINE_NAME',
+    'username' => 'DB_USER',
+    'password' => 'DB_PASSWORD',
+    'dbname' => 'DB_NAME',
+];
+
+$sBasePath = "/YOUR_HOME_DIR_FULL_PATH/";
+$sFilesPath = $sBasePath . "files/";
+

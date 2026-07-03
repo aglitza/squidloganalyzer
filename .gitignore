@@ -1,0 +1,9 @@
+# Sensible Konfigurationsdateien
+/includes/configuration.includes.php
+
+# SSL-Zertifikate und Schlüssel
+*.pem
+*.key
+
+# Node.js Abhängigkeiten (falls vorhanden)
+/node_modules/

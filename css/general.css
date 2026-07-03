@@ -1,0 +1,49 @@
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ddd;
+    text-decoration: underline;
+}
+body {
+        padding-bottom: 100px; /* Space for fixed footer */
+    }
+h2 {
+ font-size: 1.2rem;
+    border-bottom: 2px solid #fff;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+.sgcorpDisplayNone {
+    display: none;
+}
+.sgcorpLogo {
+    height: 80px;
+    margin-right: 15px;
+}
+.sccorpScrolling {
+    scroll-margin-top: 80px;
+}
+
+.sgcorp-spinner-wrapper {
+  background-color: #000;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1.0s;
+  opacity: 0.8;
+}
+
+.sgcorp-spinner-border {
+  height: 200px;
+  width: 200px;
+}
