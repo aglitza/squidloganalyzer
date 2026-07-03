@@ -2,16 +2,16 @@
 
 Ein webbasierter Analysator für Squid-Proxy-Logdateien, der detaillierte Einblicke in den Netzwerkverkehr bietet. Die Anwendung visualisiert Daten durch interaktive Tabellen und Diagramme und bietet Funktionen zur Filterung und Sortierung.
 
-<details>
-  <summary>📸 Beispiel Screenshots</summary>
-  <br>  
-  ![Beispiel-Screenshot](/images/example/example-1.png)
-  ![Beispiel-Screenshot](/images/example/example-2.png)
-  ![Beispiel-Screenshot](/images/example/example-3.png)
-  ![Beispiel-Screenshot](/images/example/example-4.png)
-  ![Beispiel-Screenshot](/images/example/example-5.png)
-  ![Beispiel-Screenshot](/images/example/example-6.png)
-</details>
+<p align="center">
+  <img src="/images/example/example-1.png" width="30%" alt="Screenshot 1" />
+  <img src="/images/example/example-2.png" width="30%" alt="Screenshot 2" />
+  <img src="/images/example/example-3.png" width="30%" alt="Screenshot 3" />
+</p>
+<p align="center">
+  <img src="/images/example/example-4.png" width="30%" alt="Screenshot 4" />
+  <img src="/images/example/example-5.png" width="30%" alt="Screenshot 5" />
+  <img src="/images/example/example-6.png" width="30%" alt="Screenshot 6" />
+</p>
 ---
 
 ## ✨ Features
