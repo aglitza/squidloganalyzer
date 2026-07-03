@@ -5,8 +5,8 @@
 /.htaccess
 /.vscode/
 /icon/
-/awstats-icon/
-/awstatsicons/
+/awstats-icon
+/awstatsicons
 
 # SSL-Zertifikate und Schlüssel
 *.pem
