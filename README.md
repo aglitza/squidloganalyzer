@@ -1,6 +1,6 @@
 # Squid Log Analyzer
 
-Ein webbasierter Analysator für Squid-Proxy-Logdateien, der detaillierte Einblicke in den Netzwerkverkehr bietet. Die Anwendung visualisiert Daten durch interaktive Tabellen und Diagramme und bietet Funktionen zur Filterung und Sortierung.
+Ein webbasierter Analysator für Squid-Proxy-Logdateien, der detaillierte Einblicke in den Netzwerkverkehr bietet. Die Anwendung visualisiert Daten durch interaktive Tabellen und Diagramme und bietet Funktionen zur Filterung und Sortierung. Die Screenshots zeigen jeweils einen Ausschnitt aus ein und derselben Seite.
 
 <p align="center">
   <img src="/images/example/example-1.png" width="30%" alt="Screenshot 1" />
@@ -12,7 +12,6 @@ Ein webbasierter Analysator für Squid-Proxy-Logdateien, der detaillierte Einbli
   <img src="/images/example/example-5.png" width="30%" alt="Screenshot 5" />
   <img src="/images/example/example-6.png" width="30%" alt="Screenshot 6" />
 </p>
----
 
 ## ✨ Features
 
