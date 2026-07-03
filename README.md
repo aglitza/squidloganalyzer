@@ -13,6 +13,22 @@ Ein webbasierter Analysator für Squid-Proxy-Logdateien, der detaillierte Einbli
   <img src="/images/example/example-6.png" width="30%" alt="Screenshot 6" />
 </p>
 
+# Warum eigentlich dieser Analyzer?
+
+Vor "grauer Vorzeit" wurde noch viel gecached und Proxies haben diese Arbeit gerne übernommen. Heute kommen diese Standard-Szenarien kaum noch vor, inbesondere weil alles verschlüsselt wird und Squid zudem "out of the box" diese Verschlüsselung nicht knacken kann. Es gibt allerdings Szenarios, wo dies möglich ist, will man das Surfen der Nutzer überwachen. Beispielsweise mit einer Transparent-Konfiguration und "SSLbump" ist es möglich entsprechende Log-Files zu erzeugen mit Squid. Die hier vorliegende Software nutzt diese spezielle Konfiguration (anbei ein Auszug aus der squid.conf-Datei in Bezug auf das verwendete Log-Format).
+
+```php
+ # ----------------------------------------------------------
+ # Logging
+ # ----------------------------------------------------------
+ #access_log /var/log/squid/access.log squid
+ #logformat custom %>a %un %>rm %ru %>Hs %<st %tr %>h %{User-Agent}>h
+ #access_log /var/log/squid/access.log custom
+ #logformat csv %ts;%>a;%un;%rm;%ru;%Hs;%<st;%tr;%{User-Agent}>h%Ss; (Orig -> Test "%Ss")
+ logformat csv %ts;%Ss;%>a;%un;%rm;%ru;%Hs;%<st;%tr;%{User-Agent}>h
+ access_log /var/log/squid/access.csv csv
+```
+
 ## ✨ Features
 
 - **Dashboard-Übersicht:** Zeigt die wichtigsten Kennzahlen und Diagramme auf einen Blick.
